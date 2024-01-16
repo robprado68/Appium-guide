@@ -78,5 +78,9 @@ Para verificar la instalacion corra en consola el siguiente comando
     -  Debera de de aparecer algo asi, si algo le aparece en rojo revise los pasos anteriores.
     ![Alt text](./img/image-2.png)
 
+___
+
+Sigue con [Guia de Capabilities](./Talller2%20Capabilities-guide.md)
+
 
 

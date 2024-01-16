@@ -29,7 +29,7 @@ Algunas de las Capacidades más importantes son las siguientes:
 
 ## Example Usage
 
-Este es un json con estas capabilities:
+Este es ejemplo de estas capabilities:
 
 ```Json
 {
@@ -42,4 +42,8 @@ Este es un json con estas capabilities:
 }
 ```
 
-**Nota** Para mas informacion sobre las capabilites puede visitar el sitio oficial haciendo [click aqui](https://appium.io/docs/en/2.2/guides/caps/#:~:text=Capabilities%20are%20represented%20as%20key,session%20to%20your%20client%20library.)
+**Nota** Existen mas capabilities, para mas informacion sobre las capabilites puede visitar el sitio oficial haciendo [click aqui](https://appium.io/docs/en/2.2/guides/caps/#:~:text=Capabilities%20are%20represented%20as%20key,session%20to%20your%20client%20library.)
+
+___
+
+Sigue con [Usando Appium Inspector](./Taller2%20Instalacion.md)
