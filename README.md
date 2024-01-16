@@ -6,7 +6,7 @@ En este repositorio encontraras una guia basica para utilizar Appium para dispos
 ### Contenido
 Estos son los contenidos del repositorio
 - [Instalacion](./Instalacion.md)
-- Capabilities y Conexion de dispositivo
+- [Capabilities y Conexion de dispositivo](./Capabilities-guide.md)
 - Como reconocer y obtener objetos
 - Mi primer Test con Appium
 
