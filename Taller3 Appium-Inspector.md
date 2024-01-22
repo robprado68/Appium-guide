@@ -75,4 +75,4 @@ emulator-5554   device
 > **Nota:** Antes de utilizar Appium Inspector, asegúrate de haber inicializado el servidor de Appium para establecer la conexión con tu dispositivo móvil. Sin la conexión al servidor de Appium, no podrás realizar pruebas automatizadas.
 ---
 ¡Genial! ya puedes inspeccionar elementos
-![Alt text](image-1.png)
+![Alt text](./img/image-7.png)

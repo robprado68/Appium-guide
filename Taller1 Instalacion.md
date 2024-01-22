@@ -14,6 +14,7 @@ Manual para instalacion y configuracion del ambiente para la creacion de proyect
 - Skd y Jdk de Java*
 - ADB(Android Debug Bridge)**
 - IDE a su eleccion (Se recomienda utilizar Visual Studio Code)
+- Maven
 - Appium Inspector
 - Vysor (Opcional)
 - Appium-Doctor
