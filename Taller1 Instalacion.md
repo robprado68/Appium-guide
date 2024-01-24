@@ -52,22 +52,20 @@ Para verificar la instalacion corra en consola el siguiente comando
     ```
     Deberia de mostrar en consola asi:
     ![Appium Check](./img/appiumcheck.jpg)
-**Nota:** Para encender el cliente de appium debe de correr este comando en la consola.
+>**Nota:** Para encender el cliente de appium debe de correr este comando en la consola.
 
 5. **Paso 5:** Configurar el Variables de Entorno
     - Agregar las variables de entorno:
         - ANDROID_HOME
         - JAVA_HOME
         - MAVEN_HOME
-        **Nota:** Si no tiene MAEVEN solo descargue el binario.zip [aqui](https://maven.apache.org/download.cgi) y descomprimalo y pegue la carpeta [apache-maven-3.9.6] en el disco C:/
-    - Agregue y/o verifique que las variables de entorno esten de la siguiente manera.
+        >**Nota:** Si no tiene MAEVEN solo descargue el binario.zip [aqui](https://maven.apache.org/download.cgi) y descomprimalo y pegue la carpeta [apache-maven-3.9.6] en el disco C:/
+    - _Agregue y/o verifique que las variables de entorno esten de la siguiente manera._
     ![Alt text](./img/image.png)
-    <br>
-    - Edite la variable Path y agregue las siguientes:
+    - _Edite la variable Path y agregue las siguientes:_
     ![Alt text](./img/image-1.png)
-    <br>
-    **Nota:** Cambiar "68706" por su usuario en la maquina
-    - Guarde los cambios, si es necesario reinicie su maquina.
+    >**Nota:** Cambiar "68706" por su usuario en la maquina
+    - _Guarde los cambios, si es necesario reinicie su maquina._
 
 6. **Paso Extra:**
     - Para verificar que se haya instalado todo y las variables esten correctas instale la siguiente herramienta desde la terminal
