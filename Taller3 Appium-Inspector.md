@@ -76,3 +76,5 @@ emulator-5554   device
 ---
 ¡Genial! ya puedes inspeccionar elementos
 ![Alt text](./img/image-7.png)
+___
+Ahora [Inspeccionemos elementos](./Taller4%20Inspeccionando%20Objetos.md)

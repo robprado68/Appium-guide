@@ -12,7 +12,7 @@ Una vez creado el proyecto deberia de tener una estructura de la siguiente forma
 ![Alt text](image-1.png)
 
 ### Paso 3: Añade las dependencias
-Localiza en tu directorio el archivo `pom.xml`, copia y pega las siguientes dependencias, puedes guiarte con el archivo [pom.xml](url) de este repositorio.
+Localiza en tu directorio el archivo `pom.xml`, copia y pega las siguientes dependencias, puedes guiarte con el archivo [pom.xml](./demoappium/pom.xml) de este repositorio.
 
 ```xml
     <dependencies>
@@ -138,6 +138,7 @@ _Mientras se hace el test podras visualizar algo como esto en tu dispositivo_
 
 ![Alt text](DemoAppium.gif)
 
->**NOTA:** Recuerda tener el servidor de appium ejecutandose 
+>**Recuerda** Tener el servidor de appium ejecutandose 
+>**Recuerda** Puedes usar el codigo de este repositorio
 
  
