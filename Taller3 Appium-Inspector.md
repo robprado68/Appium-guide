@@ -27,13 +27,13 @@ Abre la herramienta, si no la tienes instalada recuerda que puedes descargar hac
 
 Para agregar las capabilities necesarias puedes hacerlo de dos formas:
 
-1. Agregando una por una en esta seccion
+1. Agregando una por una en esta seccion <br>
 ![Alt text](./img/image-3.png)
 
 2. Agregando un Json en esta seccion 
 ![Alt text](./img/image-4.png)
 
-Puede dejar activado este check para evitar problemas de conexion
+Puede dejar activado este check para evitar problemas de conexion <br>
 ![Alt text](./img/image-5.png)
 
 Bien a modo de ejemplo puede copiar la siguiente estructura json:

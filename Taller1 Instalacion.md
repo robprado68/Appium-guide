@@ -62,8 +62,10 @@ Para verificar la instalacion corra en consola el siguiente comando
         **Nota:** Si no tiene MAEVEN solo descargue el binario.zip [aqui](https://maven.apache.org/download.cgi) y descomprimalo y pegue la carpeta [apache-maven-3.9.6] en el disco C:/
     - Agregue y/o verifique que las variables de entorno esten de la siguiente manera.
     ![Alt text](./img/image.png)
+    <br>
     - Edite la variable Path y agregue las siguientes:
     ![Alt text](./img/image-1.png)
+    <br>
     **Nota:** Cambiar "68706" por su usuario en la maquina
     - Guarde los cambios, si es necesario reinicie su maquina.
 

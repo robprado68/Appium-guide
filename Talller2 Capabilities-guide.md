@@ -46,4 +46,4 @@ Este es ejemplo de estas capabilities:
 
 ___
 
-Sigue con [Usando Appium Inspector](./Taller2%20Instalacion.md)
+Sigue con [Usando Appium Inspector](./Taller3%20Appium-Inspector.md)
