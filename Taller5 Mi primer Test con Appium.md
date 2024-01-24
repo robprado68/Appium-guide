@@ -5,11 +5,11 @@ Crearemos un pequeño ejemplo, utilizaremos como lenguaje de programacion Java y
 Crea un proyecto con Maven en 0, Te recomendamos utilizar la `Extension Pack for Java` como extension para manejar Java en vscode
 >**Recuerda** que debes tener descargada y configuradas las Variables de entorno de maven 
 
-![Alt text](image.png)
+![Alt text](./img/extension.png)
 
 Una vez creado el proyecto deberia de tener una estructura de la siguiente forma:
 
-![Alt text](image-1.png)
+![Alt text](./img/image-12.png)
 
 ### Paso 3: Añade las dependencias
 Localiza en tu directorio el archivo `pom.xml`, copia y pega las siguientes dependencias, puedes guiarte con el archivo [pom.xml](./demoappium/pom.xml) de este repositorio.
@@ -36,7 +36,7 @@ Localiza en tu directorio el archivo `pom.xml`, copia y pega las siguientes depe
     </dependencies>
 ```
 ### Paso 4: Crea una clase test.java en el directorio de test
-![Alt text](image-2.png) 
+![Alt text](./img/image-13.png) 
 
  ### Paso 5: Importa las librerias necesarias
  _Para este ejemplo utilizaremos estas librerias._
@@ -128,15 +128,15 @@ driver.findElement(By.id("com.Advantage.aShopping:id/buttonProductAddToCart")).c
 _Bien ya tenemos nuestro ejemplo de test listo es hora de ejecutarlo_
 _En este caso se utiliza Visual Studio Code y nos da la facilidad de correr las pruebas accionando el boton verde que aparece al lado izquierdo de la funcion/clase de la siguiente manera:_
 
-![Alt text](image-3.png)
+![Alt text](./img/image-14.png)
 
 _Al ejecutarse veras en la parte inferior de `TestResults` la si se ejecuta de manera correcta el test o si hubo algun fallo_
 
-![Alt text](image-4.png)
+![Alt text](./img/image-15.png)
 
 _Mientras se hace el test podras visualizar algo como esto en tu dispositivo_
 
-![Alt text](DemoAppium.gif)
+![Alt text](./img/DemoAppium.gif)
 
 >**Recuerda** Tener el servidor de appium ejecutandose 
 >**Recuerda** Puedes usar el codigo de este repositorio
