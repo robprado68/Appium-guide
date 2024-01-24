@@ -63,6 +63,7 @@ Para verificar la instalacion corra en consola el siguiente comando
     - _Agregue y/o verifique que las variables de entorno esten de la siguiente manera._
     ![Alt text](./img/image.png)
     - _Edite la variable Path y agregue las siguientes:_
+    <br>
     ![Alt text](./img/image-1.png)
     >**Nota:** Cambiar "68706" por su usuario en la maquina
     - _Guarde los cambios, si es necesario reinicie su maquina._
