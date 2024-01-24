@@ -59,7 +59,7 @@ adb devices
 Tendra una salida similar a la siguiente:
 ```
 List of devices attached
-emulator-5554   device
+RFCW4273XKK   device
 ```
 - `platformName`: El nombre de la plataforma móvil (por ejemplo, Android, iOS).
 - `platformVersion`: La versión de la plataforma móvil, en este caso es Android 13
