@@ -40,13 +40,13 @@ Bien a modo de ejemplo puede copiar la siguiente estructura json:
 
 ```json
 {
-  "appium:deviceName": "emulator-5554",
-  "appium:udid": "emulator-5554",
+  "appium:deviceName": "Galaxy A34 G",
+  "appium:udid": "RFCW4273XKK",
   "platformName": "Android",
-  "appium:platformVersion": "13",
+  "appium:platformVersion": "14",
+  "appium:appPackage": "com.Advantage.aShopping",
+  "appium:appActivity": "com.Advantage.aShopping.SplashActivity",
   "appium:automationName": "UiAutomator2",
-  "appium:appPackage": "com.android.chrome",
-  "appium:appActivity": "com.google.android.apps.chrome.Main",
   "appium:noReset": true
 }
 ```
@@ -75,6 +75,6 @@ emulator-5554   device
 > **Nota:** Antes de utilizar Appium Inspector, asegúrate de haber inicializado el servidor de Appium para establecer la conexión con tu dispositivo móvil. Sin la conexión al servidor de Appium, no podrás realizar pruebas automatizadas.
 ---
 ¡Genial! ya puedes inspeccionar elementos
-![Alt text](./img/image-7.png)
+![Alt text](./img/image-8.png)
 ___
 Ahora [Inspeccionemos elementos](./Taller4%20Inspeccionando%20Objetos.md)
