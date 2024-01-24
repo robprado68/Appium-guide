@@ -8,6 +8,7 @@ Crea un proyecto con Maven en 0, Te recomendamos utilizar la `Extension Pack for
 ![Alt text](image.png)
 
 Una vez creado el proyecto deberia de tener una estructura de la siguiente forma:
+
 ![Alt text](image-1.png)
 
 ### Paso 3: Añade las dependencias
@@ -126,11 +127,15 @@ driver.findElement(By.id("com.Advantage.aShopping:id/buttonProductAddToCart")).c
 ### Paso 9: Iniciar las pruebas
 _Bien ya tenemos nuestro ejemplo de test listo es hora de ejecutarlo_
 _En este caso se utiliza Visual Studio Code y nos da la facilidad de correr las pruebas accionando el boton verde que aparece al lado izquierdo de la funcion/clase de la siguiente manera:_
+
 ![Alt text](image-3.png)
+
 _Al ejecutarse veras en la parte inferior de `TestResults` la si se ejecuta de manera correcta el test o si hubo algun fallo_
+
 ![Alt text](image-4.png)
 
 _Mientras se hace el test podras visualizar algo como esto en tu dispositivo_
+
 ![Alt text](DemoAppium.gif)
 
 >**NOTA:** Recuerda tener el servidor de appium ejecutandose 
