@@ -10,7 +10,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class test {
-    private AndroidDriver driver;
+    private WebDriver driver;
 
     @Before
     public void setUp() {
@@ -31,6 +31,7 @@ public class test {
         URL url = getUrl();
 
         driver = new AndroidDriver(url, cap);
+        System.out.println("Application started...");
     }
 
     private URL getUrl() {
