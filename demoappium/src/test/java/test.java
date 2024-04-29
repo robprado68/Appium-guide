@@ -1,47 +1,49 @@
 
+import io.appium.java_client.remote.options.BaseOptions;
 import io.appium.java_client.android.AndroidDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import java.time.Duration;
+import java.util.Arrays;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class test {
-    private WebDriver driver;
+    private AndroidDriver driver;
 
-    @Before
+    @BeforeEach
     public void setUp() {
-        DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability("appium:deviceName", "Galaxy A34 G");
-        cap.setCapability("appium:udid", "RFCW4273XKK");
-        cap.setCapability("platformName", "Android");
-        cap.setCapability("appium:platformVersion", "14");
-        cap.setCapability("appium:appPackage", "com.Advantage.aShopping");
-        cap.setCapability("appium:appActivity", "com.Advantage.aShopping.SplashActivity");
-        cap.setCapability("appium:automationName", "UiAutomator2");
-        cap.setCapability("appium:noReset", true);
-        cap.setCapability("appium:ensureWebviewsHavePages", true);
-        cap.setCapability("appium:nativeWebScreenshot", true);
-        cap.setCapability("appium:newCommandTimeout", 3600);
-        cap.setCapability("appium:connectHardwareKeyboard", true);
+        BaseOptions options = new BaseOptions()
+        .amend("appium:deviceName", "Galaxy A34 G")
+        .amend("appium:udid", "RFCW4273XKK")
+        .amend("platformName", "Android")
+        .amend("appium:platformVersion", "14")
+        .amend("appium:appPackage", "com.Advantage.aShopping")
+        .amend("appium:appActivity", "com.Advantage.aShopping.SplashActivity")
+        .amend("appium:automationName", "UiAutomator2")
+        .amend("appium:noReset", true)
+        .amend("appium:ensureWebviewsHavePages", true)
+        .amend("appium:nativeWebScreenshot", true)
+        .amend("appium:newCommandTimeout", 3600)
+        .amend("appium:connectHardwareKeyboard", true);
 
-        URL url = getUrl();
+        URL url = this.getUrl();
 
-        driver = new AndroidDriver(url, cap);
+        driver = new AndroidDriver(url,options);
         System.out.println("Application started...");
     }
 
     private URL getUrl() {
         try {
-            return new URL("http://127.0.0.1:4723");
+          return new URL("http://127.0.0.1:4723");
         } catch (MalformedURLException e) {
-            e.printStackTrace();
-            return null; // or handle the exception accordingly
+          e.printStackTrace();
         }
-    }
+        return null;
+      }
 
     @Test
     public void sampleTest() {
@@ -59,7 +61,7 @@ public class test {
         driver.findElement(By.id("com.Advantage.aShopping:id/buttonProductAddToCart")).click();
     }
 
-    @After
+    @AfterEach
     public void tearDown() {
         driver.quit();
     }
